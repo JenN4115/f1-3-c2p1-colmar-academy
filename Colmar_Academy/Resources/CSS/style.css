@@ -1,0 +1,550 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  font-family: "Open Sans"
+}
+
+@media screen and (min-width: 676px) and (max-width: 1400px) {  /* DESKTOP */
+  /* heading */
+  .heading {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: space-between;
+    background-color: seashell;
+    border-bottom: 2px solid black;
+    height: 4rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+    height:4rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .desktop_navigation  {
+    padding: 10px;
+
+  }
+
+  .desktop_navigation ul li {
+    justify-content: flex-end;
+    display: inline;
+    padding: 0.9375rem;
+  }
+  .brand {
+    display: flex;
+    height: 0.125rem;
+    justify-content: center;
+  }
+
+  .name {
+    padding-top: 0.5rem;
+  }
+
+  .colmar {
+    font-weight: bolder;
+  }
+
+  .logo img {
+    height: 3.125rem;
+    padding-bottom: 1rem;
+  }
+
+  /* learning */
+  .learn_box {
+    background-color: #f2f2f2;
+    display: flex;
+  }
+
+
+  .learn_img {
+    margin: 2rem;
+    width: 60%;
+    height: auto;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
+  }
+  .textbox h1 {
+    font-family: "Open Sans";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+
+  .textbox h3 {
+    font-family: "Open Sans Condensed";
+  }
+
+  .box_button {
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 12.5rem;
+    font-family: "Open Sans";
+    height: auto;
+  }
+
+  .learn_btn {
+    width: 60%;
+    background-color: seashell;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 3.125rem;
+    border: 0.0625rem solid #ffc499;
+    font-family: "Open Sans Condensed";
+  }
+/* practice*/
+.practice_wrapper {
+  background-color: seashell;
+  display: flex;
+}
+  .box1 {
+    max-width: 60%;
+    padding-left: 1.5rem;
+    padding-right: 0.625rem;
+    padding-top: 1rem;
+  }
+  .quote {
+    font-weight: bold;
+  }
+
+  .practice_text a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .box1_img {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.9375rem;
+    height: 28.13rem;
+    background-image: url("../images/information-main.jpg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+  }
+
+  .box2_item {
+
+    height: 10.94rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    clear: both;
+  }
+
+  .box2_item:last-child:hover{
+    background-color: #ffc499;
+  }
+
+  .boxa_img {
+    background-image: url("../images/information-orientation.jpg");
+    width: 35%;
+    height: 0;
+    padding-top: 35%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  .boxb_img {
+    background-image: url("../images/information-campus.jpg");
+    width: 35%;
+    height: 0;
+    padding-top: 35%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  .boxc_img {
+    background-image: url("../images/information-guest-lecture.jpg");
+    width: 35%;
+    height: 0;
+    padding-top: 35%;
+    background-size: cover;
+    background-position: center;
+    float: left;
+  }
+
+  .practice_text {
+    width: 61%;
+    float: right;
+    font-family: "Open sans";
+    padding-left: 1rem;
+  }
+
+  .practice_text1 h1 {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    font-family: "Open Sans";
+  }
+
+  .practice_text h3, .quote {
+    font-family: "Open Sans Condensed";
+    font-size: 1rem;
+  /*programs */
+
+}
+
+/* programs */
+
+.program_wrapper {
+  background-color: #f2f2f2;
+  padding: 2rem, 4.5rem;
+}
+
+.option_title {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.program_options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.option {
+  background-color: white;
+  width: 25rem;
+  margin-bottom: 2rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.option img {
+  height: auto;
+  width: 25rem;
+}
+
+.option_text {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-family: "Open Sans";
+}
+
+.option_text p {
+  font-family: "open sans condensed";
+}
+
+/* video section */
+.thesis_wrapper {
+
+  border-bottom: 0.125rem solid black;
+  background-color: seashell;
+  padding-bottom: 20px;
+}
+
+.thesis_title {
+  font-family: "Open Sans";
+  font-size:  3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.thesis_container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+video {
+  max-width:80%;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.vid_thesis  {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  max-width: 60%;
+}
+
+.vid_thesis p {
+  max-width: 60%;
+  font-family: "Open sans condensed";
+  padding-left: 0.9375rem;
+  padding-top: 1.5rem;
+}
+
+.thesis_examples {
+  padding-left: 0.9375rem;
+  padding-top: 1.5rem;
+}
+
+.thesis_examples h1 {
+  font-family: "Open Sans";
+}
+
+.thesis_examples p {
+  font-family: "Open sans condensed";
+}
+
+.designer {
+  margin-bottom: 10px;
+}
+/* footer */
+
+footer {
+  padding-top: 1rem;
+  font-family: "Open Sans";
+}
+
+footer p {
+  padding-left: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 675px)  {   /*MOBILE */
+/*heading */
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 64px;
+}
+
+.mobile_navigation {
+  padding-top: 15px;
+}
+
+.mobile_navigation ul li {
+  display: inline;
+  padding: 15px;
+}
+/* learning */
+.learn_box {
+  display: block;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.learn_img {
+  background-image: url("../images/banner.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 100%;
+  height: auto;
+  padding-top: 90%;
+}
+
+.learn_btn {
+  width: 60%;
+  background-color: seashell;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 0 auto 0 auto;
+  border: 0.0625rem solid #ffc499;
+  font-family: "Open Sans Condensed";
+}
+
+.learn_btn:hover {
+  background-color: #ffc499;
+  color: white;
+}
+
+.textbox {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.textbox h1 {
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+
+}
+
+.textbox h3 {
+  font-family: "Open Sans Condensed";
+  padding-bottom: 1rem;
+}
+
+.learn_btn {
+  width: 60%;
+  text-align: center;
+  background-color: seashell;
+  margin; 0;
+  border: 0.0625rem solid #ffc499;
+  font-family: "Open Sans Condensed";
+}
+
+.box_button {
+  padding-bottom: 20px;
+}
+
+/* pratice */
+
+.practice_wrapper {
+  display: block;
+
+}
+
+.box1 {
+  display: none;
+}
+
+.box2 {
+  max-width: 100%;
+}
+
+.box2_item {
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  clear: both;
+}
+
+.boxa_img {
+  background-image: url("../images/information-orientation.jpg");
+  width: 90%;
+  height: 0;
+  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 0 auto;
+}
+
+.boxb_img {
+  background-image: url("../images/information-campus.jpg");
+  width: 90%;
+  height: 0;
+  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 0 auto;
+
+}
+
+.boxc_img {
+  background-image: url("../images/information-guest-lecture.jpg");
+  width: 90%;
+  height: 0;
+  padding-top: 60%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 0 auto;
+
+}
+
+.practice_text {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  font-family: "Open Sans";
+}
+
+.practice_text h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+
+}
+
+
+.practice_text p {
+  font-family: "Open Sans Condensed";
+  font-size: 1rem;
+}
+
+/* program */
+
+.program_wrapper {
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  font-family: "Open sans";
+}
+
+.option_title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.option_image {
+  display: none;
+}
+
+.option {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.option_text {
+  width: 90%;
+  height: 45px;
+  background-color: seashell;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.25rem;
+  padding-top: 20px;
+  border: 0.0625rem solid #ffc499;
+}
+
+.option_text h3 {
+  display: none;
+}
+
+.option_text p {
+  display: none;
+}
+/* video */
+
+.thesis_wrapper {
+  height: auto;
+  width: 100%;
+}
+
+.thesis_title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Open Sans";
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+video {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.thesis_container h2, .thesis_container p, .thesis_examples {
+  display: none;
+}
+
+
+/*footer */
+footer p {
+  padding-top: 1.5rem;
+}
+}
